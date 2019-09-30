@@ -1,12 +1,9 @@
 import mongoose from "mongoose";
+import { MONGO_URI } from "../utils/envConfig";
 
 mongoose.Promise = global.Promise;
 let isConnected: boolean;
-const MONGO_URI2 =
-  "mongodb://daniel.shenkutie:ict4rd2012@ds211865.mlab.com:11865/gql-nenja";
-const MONGO_URI =
-  "mongodb+srv://daniel:ict4rd2012@cluster0-j7d3x.mongodb.net/test?retryWrites=true&w=majority";
-const DB_URL = MONGO_URI;
+const DB_URL = MONGO_URI || "";
 let Db: any = null;
 
 export async function dbConnect() {
