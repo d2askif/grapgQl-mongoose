@@ -1,0 +1,1 @@
+{"version":3,"file":"ModelFactory.js","sourceRoot":"","sources":["../src/ModelFactory.ts"],"names":[],"mappings":";;AAAA,yCAAsC;AACtC,uDAAoD;AACpD,MAAa,YAAY;IACvB,gBAAe,CAAC;IAChB,iBAAiB;QACf,MAAM,SAAS,GAAG,IAAI,mBAAQ,EAAE,CAAC;QACjC,MAAM,WAAW,GAAG,IAAI,yBAAW,CAAC,SAAS,CAAC,CAAC;QAC/C,OAAO,WAAW,CAAC;IACrB,CAAC;CACF;AAPD,oCAOC"}
